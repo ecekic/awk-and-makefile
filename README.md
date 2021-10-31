@@ -14,6 +14,6 @@ Clone this repository and make sure you are root user or are a part of sudoers.
 ```yum install make -y```
 Depending on your Linux machine, you might use `apt` instead of `yum`.
 
-2. Run command
+2. `cd awk-and-makefile/src`
 
-```make awk```
+3. ```make awk```
