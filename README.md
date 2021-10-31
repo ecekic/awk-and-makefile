@@ -12,7 +12,7 @@ Clone this repository and make sure you are root user or are a part of sudoers.
 1. Install Makefile
 
 ```yum install make -y```
-Depending on your Linux machine, you might use apt instead of yum.
+Depending on your Linux machine, you might use `apt` instead of `yum`.
 
 2. Run command
 
