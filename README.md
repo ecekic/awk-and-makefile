@@ -24,7 +24,7 @@ Run these commands:
 `Makefile:2: *** missing separator (did you mean TAB instead of 8 spaces?).  Stop.
 `
 
-Go into `Makefile` by typing `vim Makefile` and press `:` once inside the file while in `ESCAPE MODE`
+Go into `Makefile` by typing `vim Makefile` and press `shift :` (shift colon) once inside the file while in `ESCAPE MODE`
 
 Type `%s/^[ ]\+/\t/g` Press enter
 
