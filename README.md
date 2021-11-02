@@ -24,12 +24,15 @@ Run these commands:
 `Makefile:2: *** missing separator (did you mean TAB instead of 8 spaces?).  Stop.
 `
 
-Go into `Makefile` by typing `vim Makefile` and press `:` once inside the file
+Go into `Makefile` by typing `vim Makefile` and press `:` once inside the file while in `ESCAPE MODE`
 
 Type `%s/^[ ]\+/\t/g` Press enter
 
 The reason for this is when cloning the repo, it replaces the tab with spaces in vim and make recognizes tab instead of spaces. This command will automatically replace the spaces with a tab.
 
 Then press `:wq` to save and exit. 
+
+### Should look like this [see bottom of image]
+![image](https://user-images.githubusercontent.com/64327424/139964481-06e9544c-953e-4d82-b904-5ea3263daa99.png)
 
 ### Now you can run `make awk`
