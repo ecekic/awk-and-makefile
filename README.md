@@ -20,7 +20,7 @@ Run these commands:
 
 3. ```make awk```
 
-### If you get this issue
+## If you get this issue
 `Makefile:2: *** missing separator (did you mean TAB instead of 8 spaces?).  Stop.
 `
 
